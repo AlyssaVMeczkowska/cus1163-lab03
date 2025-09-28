@@ -49,7 +49,6 @@ int run_basic_demo(void) {
         printf("Consumer child (PID: %d) exited with status %d\n", child, WEXITSTATUS(status));
     }
 
-    printf("\nSUCCESS: Basic producer-consumer completed!\n");
     return 0;
 }
 
@@ -104,7 +103,6 @@ int run_multiple_pairs(int num_pairs) {
     }
 
     printf("\nAll pairs completed successfully!\n");
-    printf("\nSUCCESS: Multiple pairs completed!\n");
 
     return 0;
 }
